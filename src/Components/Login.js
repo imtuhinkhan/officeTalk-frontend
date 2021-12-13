@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -19,6 +19,7 @@ class Login extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
+        <Redirect to={'/dashboard'}/>
         // eslint-disable-next-line no-console
         console.log({
             email: data.get('email'),
