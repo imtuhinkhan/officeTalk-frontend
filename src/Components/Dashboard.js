@@ -6,9 +6,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div>
-               <TopBar/>
                 <Sidebar/>
-                <Link to='/'>Login</Link>
             </div>
         );
     }
