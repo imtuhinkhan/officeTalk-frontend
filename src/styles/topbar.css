@@ -1,0 +1,22 @@
+.topbar{
+    background-color: #f1f1f1;
+}
+
+.topbar img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.topbar .others-icon{
+    margin: 20px 0px 0px 0px;
+    float: right;
+}
+
+.topbar .others-icon img{
+    width: 25px;
+    margin: 5px;
+}
+
+.tb-text{
+    margin: 20px 0px 0px 0px;
+}

@@ -1,9 +1,14 @@
 .sidebar-container{
     background-color: #f1f1f1;
     height: 100vh;
+    padding: 5px 36px;
+
 }
 .sidebar-hearder{
+}
 
+.sidebar-hearder-icon{
+    float: right;
 }
 
 .user-info{
@@ -20,8 +25,53 @@ padding: 10px;
     background-color: #DDDDDD;
     color:black;
     box-shadow: 2px 2px #888888;
+    border-color: #888888;
     padding: 2px;
     width: 100px;
     font-size:10px;
 
+}
+
+.active-user-box{
+
+}
+
+.active-user-box .active-icon{
+    color: green;
+    font-size: 10px;
+    margin-top:50px!important;
+}
+
+.active-user-box img{
+    width: 65px;
+    border-radius: 50%;
+}
+
+.others-icon{
+
+}
+
+.others-icon img{
+    width: 20px;
+    margin: 5px;
+}
+
+.recently-chated-user-box{
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 1px #888888;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.recently-chated img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.rc-text{
+    padding:12px 0px;
+}
+
+.rc-time{
+    padding:1px 0px;
 }
