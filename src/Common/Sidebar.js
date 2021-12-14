@@ -7,8 +7,7 @@ import TopBar from './TopBar';
 class Sidebar extends Component {
     render() {
         return (
-        <div className='row'>
-            <div className="col-4 sidebar-container" >
+            <div className="sidebar-container" >
                 <div className="row">
                     <div className="sidebar-hearder">
                         <div className="user-info">
@@ -149,10 +148,7 @@ class Sidebar extends Component {
                 </div>
             </div>
 
-            <div className='col-8'>
-                <TopBar/>
-            </div>
-        </div>
+            
         );
     }
 }

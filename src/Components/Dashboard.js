@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
-import TopBar from "../Common/TopBar";
-import Sidebar from "../Common/Sidebar";
+import Layout from '../Common/Layout';
 class Dashboard extends Component {
     render() {
         return (
             <div>
-                <Sidebar/>
+                <Layout>
+                    <h1>TUhin Khan</h1>
+                </Layout>
             </div>
         );
     }
